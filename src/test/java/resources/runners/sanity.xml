@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="testsuite" verbose="1">
+
+    <groups>
+        <run>
+            <include name="sanity"></include>
+        </run>
+    </groups>
+
+    <test name="Login Test">
+        <classes>
+            <class name="index.php.demo.com.tutorialsninja.testsuite.TopMenuTest"></class>
+            <class name="index.php.demo.com.tutorialsninja.testsuite.LaptopsAndNotebooksTest"></class>
+            <class name="index.php.demo.com.tutorialsninja.testsuite.MyAccountsTest"></class>
+            <class name="index.php.demo.com.tutorialsninja.testsuite.TopMenuTest"></class>
+        </classes>
+    </test>
+</suite>
